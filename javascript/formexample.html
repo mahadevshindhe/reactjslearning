@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+
+        function validation() {
+            var firstnmae = document.getElementById("abc");
+            alert(firstnmae);
+            return true;
+        }
+
+    </script>
+</head>
+
+<body>
+    <form method="GET" action="http://www.google.com" onsubmit="return validate()">
+
+        <input type="text" id="abc" />
+        <input type="password" id="password" />
+
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
